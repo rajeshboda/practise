@@ -6,12 +6,14 @@ while True:
         break
     mobile = input("Enter mobile number :")
     if name in teldir:  # name exists, add number to existing set
-        teldir[name].add(mobile)
+        teldirr[name].add(mobile)
     else:
         # new entry, add name and mobile as set
         teldir[name] = {mobile}
 
 # print in sorted order by name
+
+print(teldir.keys())
 
 for name, numbers in sorted(teldir.items()):
     mobiles = ','.join(sorted(numbers))
