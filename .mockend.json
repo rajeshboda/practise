@@ -1,6 +1,12 @@
 {
   "Post": {
-    "title": "Rajesh",
-    "views": "1",
+    "title": "tite",
+    "views": "123",
+    "published": "true",
+    "comments": "Comment[0]"
+  },
+  "Comment": {
+    "body": "hi",
+    "post": "Post"
   }
 }
